@@ -1,0 +1,14 @@
+Class Test.Hello Extends %CSP.Page [ ProcedureBlock ]
+{
+     ClassMethod OnPage() As %Status
+     {
+         &html<<html>
+         <head>
+         </head>
+         <body>>
+         Write "Hello, world!",!
+         &html<</body>
+         </html>>
+         Quit $$$OK
+     }
+}
