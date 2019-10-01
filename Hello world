@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main ()
+//C language
+{
+printf("hello world");
+return 0;
+}
+
+
+#include<iostream>
+int main()
+//C++ language
+{
+cout<<"hello world"<<endl;
+return 0;
+}
