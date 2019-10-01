@@ -1,2 +1,3 @@
-def print_helloz():
-    print("Hello from Z!")
+def print_hello():
+    print('Hello, how you doing?')
+print_hello()
