@@ -1,2 +1,1 @@
 Hansika Rajput
-Bhanuja Aggarwal
