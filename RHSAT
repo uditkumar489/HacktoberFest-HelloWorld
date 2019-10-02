@@ -1,0 +1,56 @@
+#include<bits/stdc++.h>
+#define ll long long
+using namespace std;
+char dig(int n, int d)
+{
+    string str;
+    stringstream ss;
+    ss << n;
+    ss >> str;
+    return str[d - 1];
+}
+
+char nth(int n)
+{
+    int sum = 0, temp = 9;
+    int dist = 0,i;
+    for (i = 1; ; i++)
+    {
+        sum += temp*i;
+        dist += temp;
+
+        if (sum >= n)
+        {
+            sum -= temp*i;
+            dist -= temp;
+            n -= sum;
+            break;
+        }
+        temp *= 10;
+    }
+    int diff = ceil((double)n /i);
+    int d = n % i;
+    if (d == 0)
+        d = i;
+    return dig(dist + diff, d);
+}
+
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    ll q;
+    cin>>q;
+    int sum=0;
+    while(q--) {
+        ll x;
+        cin >> x;
+        sum = sum + (nth(x) - '0');
+    }
+    cout<<sum<<endl;
+
+    return 0;
+}
