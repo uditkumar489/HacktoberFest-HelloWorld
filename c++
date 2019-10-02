@@ -1,3 +1,7 @@
 //hello world in c++
-
-cout << helllo world << endl;
+#include<iostream>
+using namespace std;
+int main(){
+  cout<<"hello world"<<endl;
+  return 0;
+}
