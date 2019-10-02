@@ -1,2 +1,1 @@
-for i in range(10):
-  print("Hello guYzz")
+ print("Hello World")
