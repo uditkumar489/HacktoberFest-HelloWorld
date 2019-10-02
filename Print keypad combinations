@@ -1,0 +1,31 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+string choice(int n)
+{
+    string ans[]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+    return ans[n];
+}
+void keypad(int num,string ans)
+{
+    if(num==0)
+    {
+        cout<<ans<<endl;
+        return;
+    }
+    int nod=log10(num)+1;       // no of digits in number
+    int ronum=num % int(pow(10, nod - 1)); // finding the rest of digits
+    int nextnum=num/pow(10,nod-1); // finding the first (most significant) digit
+    // finding the string options here
+    string options=choice(nextnum);
+    for(int i=0;i<options.size();i++)
+            keypad(ronum,ans+options[i]);
+}
+
+
+int main()
+{
+    int num=273;   // change the number as and when required
+    keypad(num,"");
+    return 0;
+}
