@@ -1,0 +1,13 @@
+t = int(input())
+for l in range(t) :
+    n = int(input())
+    a = list(map(int,input().split()))
+    coin = sum(a)
+    total = coin
+    coin *= (n-1)
+    coin /= n
+    coin = total - coin
+    if coin in a :
+        print(a.index(coin) + 1)
+    else :
+        print("Impossible")
