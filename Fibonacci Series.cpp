@@ -11,13 +11,15 @@ int main(){
 	int i=0;
 	cout<<a1<<","<<a2<<",";				//Printing First 2 Elements
 	
-	while(i<n-2){
+	while(i<n-3){
 		an=a1+a2;
 		a1=a2;
 		a2=an;
 		cout<<an<<",";
 		i++;
 	}
+	an=a1+a2;
+	cout<<an;
 
 	return 0;
 }
