@@ -8,15 +8,14 @@ int main(){
 	cout<<"Enter Number of Terms you want to Display (>2)\n";
 	cin>>n;
 
-	int i=0;
+	int i;
 	cout<<a1<<","<<a2<<",";				//Printing First 2 Elements
 	
-	while(i<n-2){
+	for(i=0;i<n-2;i++){
 		an=a1+a2;
 		a1=a2;
 		a2=an;
 		cout<<an<<",";
-		i++;
 	}
 
 	return 0;
