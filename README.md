@@ -20,7 +20,7 @@ git push origin master
 9. Wait for your shirt.
 
 
-## examples that you can do
+## Examples that you can do
 1. You can add any program.
 2. You can update readme file.
 etc...
