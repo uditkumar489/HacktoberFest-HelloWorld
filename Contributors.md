@@ -1,6 +1,7 @@
 
-Name : Mayank Upadhyay
+1. Mayank Upadhyay
+2. Hansika Rajput
+3. Bhanuja Aggarwal
+4. Ashish Lalchandani
+5. Shruti Aggarwal
 
-Hansika Rajput
-Bhanuja Aggarwal
-Ashish Lalchandani
