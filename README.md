@@ -1,13 +1,13 @@
 # Welcome to HacktoberFest 2019!
 ###  An easy way to get your 5 pull requests for Hacktoberfest ! 
-This Repo is solely built for HacktoberFest 2019 !! Just make a pull request and it will be merged with in minutes ...
+This Repo is solely built for HacktoberFest 2019 !! Just make a pull request and it will be merged within minutes ...
 
 * Follow these steps to make your first pull request-
 
 1. Fork this repository.
 2. Clone your forked repository to your local machine.
 3. Add your name in Contributors.md file.
-4. Write these command on your terminal-
+4. Write these commands on your terminal-
 ```
 git add -A
 git commit -m "your name"
