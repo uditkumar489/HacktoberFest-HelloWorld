@@ -6,7 +6,7 @@ This Repo is solely built for HacktoberFest 2019 !! Just make a pull request and
 
 1. Fork this repository.
 2. Clone your forked repository to your local machine.
-3. Add your name in Contributors.md file.
+3. Add your name in Contributors
 4. Write these command on your terminal-
 ```
 git add -A
