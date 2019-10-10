@@ -17,6 +17,9 @@ def _fib(n):
 			return (c, d)
 		else:
 			return (d, c + d) 
-
+            
+def hello():
+    print("Hello world!!")
 
 #print(fibonacci(1000))
+print(hello())
