@@ -1,0 +1,34 @@
+
+*{
+    margin-top: 0;
+    margin-left: 0;
+    
+}
+
+body{
+    background: url("joker.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#time{
+    color:white;
+    margin-top:250px;
+    margin-left: 170px;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+#date{
+    color:white;
+    margin-left:1030px;
+    font-size: 60px;
+    margin-top:-68px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#weekday{
+    font-size:35px;
+    
+}
