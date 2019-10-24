@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(){
-    printf("Hello world");
-    return 0;
+#include<stdio.h>
+int main()
+{
+  printf("Hello World");
+  printf("coding is interesting");
+  return 0;
 }
