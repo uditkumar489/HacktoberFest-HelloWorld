@@ -1,0 +1,30 @@
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+class Example {
+    int x, y;
+public:
+
+    Example(int a, int b) {
+        
+        x = a;
+        y = b;
+        cout << "I am Constructor\n";
+    }
+
+    void Display() {
+        cout << "Values :" << x << "\t" << y;
+    }
+};
+
+int main() {
+    Example Object(11, 25);
+    
+    Object.Display();
+
+    
+    getch();
+    return 0;
+}
