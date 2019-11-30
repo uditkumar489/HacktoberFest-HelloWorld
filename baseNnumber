@@ -1,0 +1,26 @@
+#include <iostream>
+#nclude <string>
+#include <cmath>
+
+class BaseN{
+ unsigned base;
+ string numero;
+public:
+ BaseN(int = 0, unsigned = 2);
+ void setB(unsigned);
+ void setN(string);
+ void setN(int);
+ 
+ void trocaB(unsigned);
+ 
+ unsigned getB() const;
+ string getN() const;
+ 
+ BaseN operator+(BaseN);
+ BaseN operator-(BaseN);
+ BaseN operator*(BaseN);
+ BaseN operator/(BaseN);
+ 
+ 
+ ~BaseN(); 
+};
