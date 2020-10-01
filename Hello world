@@ -7,7 +7,7 @@ int main ()
   cin>>n;
 for(int i=0; i<n; i++)
  {
-  cout << "hello world!"<<endl;
+  cout << "say hello world with me"<<endl;
   }
 return 0;
 }
