@@ -1,0 +1,13 @@
+# By: its-kos - https://github.com/its-kos
+
+	.data
+txt: .asciiz "Hello World\n"
+
+section .text
+
+	.text
+	.globl main
+	
+main:   li $v0, 4
+        la $a0, txt
+        syscall

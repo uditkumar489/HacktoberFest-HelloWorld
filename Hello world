@@ -1,16 +1,13 @@
-#include<stdio.h>
-int main ()
-//C language
-{
-printf("hello world");
-return 0;
-}
-
-
 #include<iostream>
-int main()
-//C++ language
-{
-cout<<"hello world"<<endl;
+using namespace std;
+ 
+int main ()
+{ int n;
+  cout<<"enter the value for n"<<endl;
+  cin>>n;
+for(int i=0; i<n; i++)
+ {
+  cout << "hello world!"<<endl;
+  }
 return 0;
 }
